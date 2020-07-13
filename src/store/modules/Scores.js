@@ -11,11 +11,17 @@ const getters={
 const actions={
     increaseScore({commit}){
         commit('incrementScore');
+    },
+    resetScore({commit}){
+        commit('restartScore');
     }
 };
 const mutations={
         incrementScore:(state)=>{
             state.score++
+        },
+        restartScore:(state)=>{
+            state.score=0
         }
 };
 

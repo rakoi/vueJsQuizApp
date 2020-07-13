@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import Vuetify from 'vuetify'
+	import Vue from 'vue'
+	import Vuetify from 'vuetify'
 
-Vue.use(Vuetify)
+	Vue.use(Vuetify)
 
-export default new Vuetify({
-  theme: { dark: false }
-})
+	export default new Vuetify({
+	  theme: { dark: false }
+	})
